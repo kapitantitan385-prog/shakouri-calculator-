@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="محاسبه ب.م.م و ک.م.م" android:textSize="20sp" android:paddingBottom="8dp"/>
+
+        <EditText android:id="@+id/etA" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberSigned" android:hint="عدد اول"/>
+        <EditText android:id="@+id/etB" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberSigned" android:hint="عدد دوم"/>
+
+        <Button android:id="@+id/btnCompute" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="محاسبه"/>
+
+        <TextView android:id="@+id/tvResult" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:paddingTop="12dp"/>
+    </LinearLayout>
+
+</ScrollView>
